@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Task3</title>
+
+	<meta charset="utf-8">
+
+	<style type="text/css">
+	
+	// Task3 rules
+
+	h1 {
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 3em;
+	}
+
+	.block {
+	width: 800px;
+	height: 220px;
+	background-color: lightgrey;
+	text-align: justify;
+	padding: 0% 1% 1% 1%;
+	border: 3px solid black;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	}
+		
+
+	.block:nth-child(2n) {
+	background: #e9e9df;
+	}
+	
+	.block:hover {
+	border: 3px dashed black;
+	background: yellow;
+	}
+
+	.linkblock {
+	border: solid black 2px;
+	margin-bottom: 20px;
+	}
+	
+	h3 {
+	font-size: 2em;
+	font-family: 'Limelight', cursive;
+	}
+
+	h3:hover {
+	text-decoration: underline;
+	}
+
+	span {
+	font-family: 'Rozha One', serif;	
+	}
+
+	span:last-child:hover {
+	text-decoration: underline;
+	}
+
+	span:hover {
+	color: #1147d7;
+	font-style: italic;
+	}
+
+	div a {
+	font-size: 2em;
+	cursor:pointer;
+	}	
+
+	a:visited {
+	color: #01618c;
+	}
+
+	a:active {
+	color: rgba(0, 0, 255, 0.3);	
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+	.gif1{
+	position: relative;
+	left: 10%;
+	border: solid black 3px;
+	margin-top: 30px;
+	}
+
+	li:nth-child(odd) {
+	background: #e9e9df;	
+	}	
+	
+
+	table {
+        border: solid black 4px;	
+        }
+
+        tr {
+        border-bottom: solid black 4px;
+	background: #f8ed33;
+        }
+
+        td {
+        border: solid black 2px;
+	font-family: 'Cabin', sans-serif;
+	text-align: center;
+        }	        
+        
+	.tablecap {
+        font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;                    
+	text-align: center;
+                }
+
+	img {
+		border: solid rgba(0,0,0,0.3) 3px;		
+		}
+
+	.tc4 {
+	vertical-align: top;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Georgia;
+	}
+		
+	.tc1  {
+	font-size: 25px;		
+	}
+		
+	td:hover {
+	border-color: blue;
+	color: orange;
+	}
+
+
+	.tr1.tc4 {
+	background-image: url(https://media.glamour.com/photos/570ebd23fa96537b0517db58/master/w_1280,c_limit/esperanza-spalding-curly-hair-2.png);
+	background-size: cover;
+	background-position: center;
+	}
+
+	.tr2.tc4 {
+	background-image: url(http://www.fbass.com/img/artists/main/league3.jpg);
+	background-size: cover;
+	background-position: center;
+	}
+
+	.tr3.tc4 {
+	background-image: url(http://longspark.org/wp-content/uploads/2016/05/banda-magda.jpg);
+	background-size: cover;
+	background-position: center;
+	}
+
+	.tr4.tc4 {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/29/40/18/2940184c30393472df80491df84b4fae.jpg);
+	background-size: cover;
+	background-position: center;
+	}
+		
+	.tr5.tc4 {
+	background-image: url(https://images-na.ssl-images-amazon.com/images/I/91g6drkpYmL._SL1500_.jpg);
+	background-size: cover;
+	background-position: center;
+	}
+
+	ul {
+	list-style-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mercury_symbol.svg/30px-Mercury_symbol.svg.png');
+	list-style-position: inside;
+	}
+
+
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Limelight|Rozha+One" rel="stylesheet">
+	</head>
+
+	<body bgcolor="#f0efed">
+	<h1>Task page</h1>
+		
+		<div class='linkblock'>
+		<ul>
+		<li><a href='#part1'>Part 1</a></li>
+		<li><a href='#part2'>Part 2</a></li>
+		<li><a href='#part3'>Part 3</a></li>
+		<li><a href='#part4'>Part 4</a></li>
+		<li><a href='#part5'>Part 5</a></li>	
+		<li><a href='#part6'>Part 6</a></li>
+		<li><a href='#part7'>Part 7</a></li>
+		<li><a href='#part8'>Part 8</a></li>
+		<li><a href='#part9'>Part 9</a></li>
+		<li><a href='#part10'>Part 10</a></li>
+		<li><a href='http://google.com' target='_blank'>Google in new tab</a></li>		
+		<li><a href='#mustab'>Music table</a></li>
+		<li><a href='#gifpic1'>Animated picture</a></li>
+		</ul>
+
+		</div>
+			<div>
+			
+				<div class='block' id='part1'>
+				<h3>Credo quia absurdum</h3>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span><span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+				</div>
+			
+			
+			
+				<div class='block' id='part2'>
+				<h3>Credo quia absurdum</h3>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span><span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+				</div>
+			
+			
+			
+				<div class='block' id='part3'>
+				<h3>Credo quia absurdum</h3>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span><span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+				</div>
+			
+			
+			
+				<div class='block' id='part4'>
+				<h3>Credo quia absurdum</h3>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span><span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+				</div>
+			
+			
+			
+				<div class='block' id='part5'>
+				<h3>Credo quia absurdum</h3>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span><span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+				</div>
+			
+			
+			
+				<div class='block' id='part6'>
+				<h3>Credo quia absurdum</h3>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span><span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+				</div>
+			
+			
+			
+				<div class='block'id='part7'>
+				<h3>Credo quia absurdum</h3>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span><span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+				</div>
+			
+			
+			
+				<div class='block' id='part8'>
+				<h3>Credo quia absurdum</h3>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span><span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+				</div>
+			
+			
+			
+				<div class='block' id='part9'>
+				<h3>Credo quia absurdum</h3>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span><span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+				</div>
+			
+			
+			
+				<div class='block' id='part10'>				
+				<h3>Credo quia absurdum</h3>				
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span><span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span> <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+				</div>
+			
+			</div>
+			
+
+	<table id='mustab'>
+                <tr class='tablecap'>
+                    <td class= 'tcap tcr1'>
+                    №
+                    </td>
+                    <td class= 'tcap tcr2'>
+                        Logo
+                    </td>
+                    <td class= 'tcap tcr3'>
+                        Chanel
+                    </td>
+                    <td class= 'tcap tcr4'>
+                        Musician
+                    </td>
+                    <td class= 'tcap tcr5'>
+                        Track
+                    </td>
+                    <td class= 'tcap tcr6'>
+                        Video
+                    </td>
+                </tr>
+
+                <tr class='row1'>
+                    <td class='tr1 tc1' >
+                    1
+                    </td>
+                    <td class='tr1 tc2'>
+                    <img src='https://yt3.ggpht.com/-54g_3aD94Mo/AAAAAAAAAAI/AAAAAAAAAAA/YA_Vh7W0Hw4/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg'>
+                    </td>
+                    <td class='tr1 tc3'>
+                    <a href='https://www.youtube.com/channel/UC_ghFm78RhT2eg6rPIVHRVg' target='_blank'>Esperanza Spalding</a>
+                    </td>
+                    <td class='tr1 tc4'>
+                    Esperanza Spalding		    
+                    </td>
+                    <td class='tr1 tc5'>
+                    Black Gold
+                    </td>
+                    <td class='tr1 tc6'>
+                    <iframe width="427" height="240" src="https://www.youtube.com/embed/_gFp53ATMiI" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </td>
+                </tr>
+
+                <tr class='row2'>
+                        <td class='tr2 tc1'>
+                        2
+                        </td>
+                        <td rowspan="2" class='tr2 tc2'>
+                        <img src='https://yt3.ggpht.com/-n9wMFNmQ-9w/AAAAAAAAAAI/AAAAAAAAAAA/Xr4WkhYZYk8/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg'>
+                        </td>
+                        <td rowspan="2" class='tr2 tc3'>
+                        <a href='https://www.youtube.com/channel/UCPl2RYo0lLLqj8RaEADYclg' target='_blank'>GroundUPmusicNYC</a>
+                        </td>
+                        <td class='tr2 tc4'>
+                        Snarky Puppy
+                        </td>
+                        <td class='tr2 tc5'>
+                        Liquid Love
+                        </td>
+                        <td class='tr2 tc6'>
+                        <iframe width="427" height="240" src="https://www.youtube.com/embed/_60kf3hcJvc" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </td>
+                    </tr>
+                    
+                    <tr class='row3'>
+                            <td class='tr3 tc1'>
+                            3
+                            </td>
+                            <td colspan='2' class='tr3 tc4'>
+                            Banda Magda
+                            </td>                            
+                            <td class='tr3 tc6'>
+                            <iframe width="427" height="240" src="https://www.youtube.com/embed/b-TW7x9MEog" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </td>
+                           
+                    </tr>
+
+                    <tr class='row4'>
+                            <td class='tr4 tc1'>
+                            4
+                            </td>
+                            <td class='tr4 tc2'>
+                            <img src='https://yt3.ggpht.com/-s-PxE0TfMVY/AAAAAAAAAAI/AAAAAAAAAAA/vhJHzuhohYg/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg'>
+                            </td>
+                            <td class='tr4 tc3'>
+                            <a href='https://www.youtube.com/channel/UCAa3V2vauKwyC8vTiUWiftQ' target='_blank'>RobertGlasperVevo<a/>
+                            </td>
+                            <td class='tr4 tc4'>
+                            Robert Glasper
+                            </td>
+                            <td class='tr4 tc5'>
+                            Barangrill
+                            </td>
+                            <td class='tr4 tc6'>
+                                    <iframe width="427" height="240" src="https://www.youtube.com/embed/ibHN6_e8CNE" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </td>
+                    </tr>
+
+                    <tr class='row5'>
+                            <td class='tr5 tc1'>
+                            5
+                            </td>
+                            <td class='tr5 tc2'>
+                            <img src='https://yt3.ggpht.com/-glBp4jlrH9o/AAAAAAAAAAI/AAAAAAAAAAA/UUd54MGAz-k/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg'>
+                            </td>
+                            <td class='tr5 tc3'>
+                            <a href='https://www.youtube.com/channel/UCIGblCsoMuAsZMLz3hj5a7A' target='_blank'>MelodyGardotVEVO</a>
+                            </td>
+                            <td class='tr5 tc4'>
+                            Melody Gardot
+                            </td>
+                            <td class='tr5 tc5'>
+                            Preacherman
+                            </td>
+                            <td class='tr5 tc6'>
+                            <iframe width="427" height="240" src="https://www.youtube.com/embed/gOwoE8XtPFU" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </td>
+                    
+                    </tr>
+            </table>
+			<img class='gif1' id='gifpic1' src="https://media1.tenor.com/images/7e0e2c492bfca234f216ae2151ea40ed/tenor.gif?itemid=6087223" title='Have a nice day!'>
+	</body>
+</html>
