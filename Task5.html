@@ -1,0 +1,327 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+	<meta charset=''utf-8>
+	<style type='text/css'>
+	
+	.block {
+	width: 800px;
+	border: solid lightgrey 1px;
+	margin: 0 5px 0 5px;
+	border-radius: 4px;
+	}
+	
+	.midblock {	
+	position: relative;	
+	height: 117px;
+	margin-bottom: 10px;
+	}
+
+	.botblock {	
+	position: relative;
+	width: 800px;
+	height: 117px;
+	background-color: rgb(51,51,51);
+	}
+
+	.pinkbutton {
+	background-color: rgb(217, 77, 168);
+	border-radius: 3px;	
+	color: white;
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+	width: 110px;
+	position: absolute;
+	left: 33px;
+	top: 20px;
+	border: none;
+	
+	}
+
+	.shadow {
+	box-shadow: 1px 1px 1px lightgrey;
+	}
+	
+	.greenbutton {
+	background-color: rgb(179, 215, 68);
+	border-radius: 3px;	
+	color: white;
+	font-size: 7px;
+	font-family: Arial;
+	font-weight: bold;	
+	position: absolute;
+	left: 146px;
+	top: 27px;
+	border: none;
+	}
+
+	.bluebutton {
+	background-color: rgb(71, 147, 230);
+	border-radius: 2px;	
+	color: white;
+	font-size: 7px;
+	font-family: Arial;
+	font-weight: bold;	
+	position: absolute;
+	left: 33px;
+	top: 55px;
+	border: none;
+	width: 55px;	
+	}
+
+	.bluebutton2 {
+	background-color: rgb(71, 147, 230);
+	border-radius: 2px;	
+	color: white;
+	font-size: 6px;
+	font-family: Arial;
+	font-weight: bold;	
+	position: absolute;
+	left: 33px;
+	top: 55px;
+	border: none;
+	width: 47px;	
+	}
+	
+	.redbutton {
+	background-color: rgb(237, 89, 90);
+	border-radius: 2px;	
+	color: white;
+	font-size: 6px;
+	font-family: Arial;
+	font-weight: bold;	
+	position: absolute;
+	left: 90px;
+	top: 55px;
+	border: none;
+	width: 55px;
+	}
+	
+	.orangebutton {
+	background-color: rgb(255, 120, 45);
+	border-radius: 2px;	
+	color: white;
+	font-size: 7px;
+	font-family: Arial;
+	font-weight: bold;	
+	position: absolute;
+	left: 33px;
+	top: 80px;
+	border: none;	
+	}
+
+	.orangebutton2 {
+	background-color: rgb(255, 120, 45);
+	border-radius: 2px;	
+	color: white;
+	font-size: 5px;
+	font-family: Arial;
+	font-weight: bold;	
+	position: absolute;
+	left: 33px;
+	top: 80px;
+	border: none;
+	width: 50px;
+	}
+
+	.redbutton2 {
+	background-color: rgb(237, 89, 90);
+	border-radius: 2px;	
+	color: white;
+	font-size: 6px;
+	font-family: Arial;
+	font-weight: bold;	
+	position: absolute;
+	left: 82px;
+	top: 55px;
+	border: none;
+	width: 55px;
+	}
+
+	.yellowbutton {
+	background-color: rgb(255, 195, 70);
+	border-radius: 2px;
+	color: white;
+	font-size: 7px;
+	font-family: Arial;
+	font-weight: bold;	
+	position: absolute;
+	left: 95px;
+	top: 80px;
+	border: none;	
+	}
+	
+	.yellowbutton2 {
+	background-color: rgb(255, 195, 70);
+	border-radius: 2px;
+	color: white;
+	font-size: 5px;
+	font-family: Arial;
+	font-weight: bold;	
+	position: absolute;
+	left: 85px;
+	top: 80px;
+	border: none;
+	}
+
+	.whitesquare {
+	background: white;
+	width: 300px;
+	height: 75px;
+	position: absolute;
+	left: 35%;
+	top: 35%;
+	border: solid black 1px;	
+	}
+	
+	.headblock {
+	height: 200px;
+	width: 800px;
+	position: relative;	
+	margin-bottom: 10px;	
+	}
+	
+	.SSI {	
+	border: solid black 3px;
+	position: absolute;
+	width:	286px;
+	height: 61px;
+	margin: 4px;
+	font-family: Brush Script MT;
+	font-size: 40px;
+	text-align: center;
+	}
+
+	.facebook {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 1% 50%;	
+	}	
+
+	.twocircles {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 11% 50%;	
+	}
+
+	.ball {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 20.5% 50%;	
+	}
+
+	.gplus {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 30% 50%;	
+	}
+
+	.in {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 40% 51%;	
+	}
+
+	.pintrest {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 50% 51%;	
+	}
+
+	.rss {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 59.5% 51%;	
+	}
+
+	.skype {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 69.5% 51%;	
+	}
+
+	.twitter {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 79% 51%;	
+	}
+
+	.vkont {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 89% 50%;	
+	} 
+
+ 	.youtube {
+	background: url("file:///C:/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Downloads/spice-social-gadget-sprite.png") no-repeat;
+	width: 62px;
+	height: 62px;
+	border-radius: 10px;
+	background-position: 98.5% 50%;	
+	}
+
+	</style>
+	<title>Task 5</title>
+	</head>
+
+	<body>
+		<div class='headblock'>	
+			<div class='whitesquare'>
+				<div class='SSI'><span>Social Sprites Icons</span></div>
+			</div>
+		</div>
+
+		<div class='block midblock'>			
+			<button class='pinkbutton shadow'>Pink Button</button>
+			<button class='greenbutton shadow'>Green Button</button>
+			<button class='bluebutton shadow'>Blue Button</button>
+			<button class='redbutton shadow'>Red Button</button>
+			<button class='orangebutton shadow'>Orange Button</button>	
+			<button class='yellowbutton shadow'>Yellow Button</button>			
+		</div>
+
+		<div class='block botblock'>			
+			<button class='pinkbutton'>Pink Button</button>
+			<button class='greenbutton'>Green Button</button>
+			<button class='bluebutton2'>Blue Button</button>
+			<button class='redbutton2'>Red Button</button>
+			<button class='orangebutton2'>Orange Button</button>	
+			<button class='yellowbutton2'>Yellow Button</button>			
+		</div>
+	
+	<div class='facebook'></div>
+	<div class='twocircles'></div>
+	<div class='ball'></div>
+	<div class='gplus'></div>
+	<div class='in'></div>
+	<div class='pintrest'></div>
+	<div class='rss'></div>
+	<div class='skype'></div>
+	<div class='twitter'></div>
+	<div class='vkont'></div>
+	<div class='youtube'></div>
+	
+	</body>
+</html>
