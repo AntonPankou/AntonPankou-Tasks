@@ -1,0 +1,803 @@
+		.ap6-buttonsection	{	
+		border: solid lightgrey 1px;	
+		border-radius: 4px;
+		}		
+		
+		.ap6-buttonsection_theme-dark {		
+		background-color: rgb(51,51,51);
+		}
+
+		.ap6-button {
+		font-family: Arial;
+		font-weight: bold;
+		color: white;
+		border: none;
+		border-radius: 3px;				
+		}
+
+		.ap6-button_shadow-enabled {
+		box-shadow: 1px 1px 1px lightgrey;
+		}
+
+		.ap6-button_theme-pink {
+		background-color: rgb(217, 77, 168);
+		}
+
+		.ap6-button_theme-green {
+		background-color: rgb(179, 215, 68);
+		}
+		
+		.ap6-button_theme-blue {
+		background-color: rgb(71, 147, 230);			
+		}		
+
+		.ap6-button_theme-red {
+		background-color: rgb(237, 89, 90);
+		}		
+
+		.ap6-button_theme-orange {
+		background-color: rgb(255, 120, 45);
+		}
+
+		.ap6-button_theme-yellow {
+		background-color: rgb(255, 195, 70);
+		}
+
+		.ap6-button_size-large {
+		font-size: 16px;
+		}
+
+		.ap6-button_size-common {
+		font-size: 8px;
+		}
+
+		.ap6-button_size-small {
+		font-size: 5px;
+		}
+
+		.ap6-buttonsection__wrap {
+		margin-top: 10px;
+		}
+
+		.ap6-buttonsection__blocks-wrap {
+		margin: 20px 0px 25px 20px;
+		}
+
+		.ap6-content__wrap {
+		margin-top: 10px;
+		width: 1100px;
+		}
+		
+		.ap6-header {			
+		}
+
+		.ap6-header__background {			
+		width: 1100px;
+		height: 200px;
+		background-color: rgb(182,182,182);
+		overflow: hidden;
+		position: relative;
+		}		
+
+		.ap6-sprite {
+			transform: scale(0.5) rotate(-6deg);
+			width: 62px;
+			height: 62px;
+			border-radius: 10px;
+			background: url("spice-social-gadget-sprite.png");			
+			}
+			
+			.ap6-sprite__facebook {		
+			background-position: 1% 50%;			
+			}
+
+			.ap6-sprite__twocircles {	
+			background-position: 11% 50%;				
+			}
+
+			.ap6-sprite__ball {	
+			background-position: 20.5% 50%;			
+			}
+
+			.ap6-sprite__gplus {	
+			background-position: 30% 50%;			
+			}
+
+			.ap6-sprite__in {	
+			background-position: 40% 51%;
+			
+			}
+			.ap6-sprite__pintrest {	
+			background-position: 50% 51%;			
+			}
+
+			.ap6-sprite__rss {	
+			background-position: 59.5% 51%;					
+			}
+
+			.ap6-sprite__skype {	
+			background-position: 69.5% 51%;			
+			}
+
+			.ap6-sprite__twitter {	
+			background-position: 79% 51%;			
+			}
+
+			.ap6-sprite__vkont {	
+			background-position: 89% 50%;			
+			} 
+			
+			.ap6-sprite__youtube {	
+			background-position: 98.5% 50%;			
+			}
+			
+			.ap6-sprite__facebook_position1-1 {
+			position: absolute;
+			top: -10px;
+			left: -15px;
+			}
+
+			.ap6-sprite__twocircles_position1-2 {
+			position: absolute;
+			top: -17px;
+			left: 35px;
+			}
+
+			.ap6-sprite__ball_position1-3 {
+			position: absolute;
+			top: -24px;
+			left: 85px;
+			}
+
+			.ap6-sprite__gplus_position1-4 {
+			position: absolute;
+			top: -31px;
+			left: 135px;
+			}
+
+			.ap6-sprite__in_position1-5 {
+			position: absolute;
+			top: -38px;
+			left: 185px;
+			}
+
+			.ap6-sprite__pintrest_position2-1 {
+			position: absolute;
+			top: 38px;
+			left: -10px;
+			}
+
+			.ap6-sprite__rss_position2-2 {
+			position: absolute;
+			top: 31px;
+			left: 40px;
+			}
+
+			.ap6-sprite__skype_position2-3 {
+			position: absolute;
+			top: 24px;
+			left: 90px;
+				}
+			.ap6-sprite__twitter_position2-4 {
+			position: absolute;
+			top: 17px;
+			left: 140px;
+			}
+
+			.ap6-sprite__vkont_position2-5 {
+			position: absolute;
+			top: 10px;
+			left: 190px;
+			}
+
+			.ap6-sprite__youtube_position2-6 {
+			position: absolute;
+			top: 3px;
+			left: 240px;
+			}
+
+			.ap6-sprite__facebook_position2-7 {
+			position: absolute;
+			top: -4px;
+			left: 290px;
+			}
+
+			.ap6-sprite__twocircles_position2-8 {
+			position: absolute;
+			top: -11px;
+			left: 340px;
+			}
+
+			.ap6-sprite__ball_position2-9 {
+			position: absolute;
+			top: -18px;
+			left: 390px;
+			}
+
+			.ap6-sprite__gplus_position2-10 {
+			position: absolute;
+			top: -25px;
+			left: 440px;
+			}
+
+			.ap6-sprite__in_position2-11 {
+			position: absolute;
+			top: -32px;
+			left: 490px;
+				}
+
+			.ap6-sprite__pintrest_position2-12 {
+			position: absolute;
+			top: -39px;
+			left: 540px;
+			}
+
+			.ap6-sprite__rss_position3-1 {
+			position: absolute;
+			top: 86px;
+			left: -5px;
+			}
+
+			.ap6-sprite__skype_position3-2 {
+			position: absolute;
+			top: 79px;
+			left: 45px;
+			}
+
+			.ap6-sprite__twitter_position3-3 {
+			position: absolute;
+			top: 72px;
+			left: 95px;
+			}
+
+			.ap6-sprite__vkont_position3-4 {
+			position: absolute;
+			top: 65px;
+			left: 145px;
+			}
+
+			.ap6-sprite__youtube_position3-5 {
+			position: absolute;
+			top: 58px;
+			left: 195px;
+			}
+			
+			.ap6-sprite__facebook_position3-6 {
+			position: absolute;
+			top: 51px;
+			left: 245px;
+			}
+	
+			.ap6-sprite__twocircles_position3-7 {
+			position: absolute;
+			top: 44px;
+			left: 295px;
+			}
+	
+			.ap6-sprite__ball_position3-8 {
+			position: absolute;
+			top: 37px;
+			left: 345px;
+			}
+	
+			.ap6-sprite__gplus_position3-9 {
+			position: absolute;
+			top: 30px;
+			left: 395px;
+			}
+	
+			.ap6-sprite__in_position3-10 {
+			position: absolute;
+			top: 23px;
+			left: 445px;
+			}
+	
+			.ap6-sprite__pintrest_position3-11 {
+			position: absolute;
+			top: 16px;
+			left: 495px;
+			}
+	
+			.ap6-sprite__rss_position3-12 {
+			position: absolute;
+			top: 9px;
+			left: 545px;
+			}
+	
+			.ap6-sprite__skype_position3-13 {
+			position: absolute;
+			top: 2px;
+			left: 595px;
+			}
+	
+			.ap6-sprite__twitter_position3-14 {
+			position: absolute;
+			top: -5px;
+			left: 645px;
+			}
+	
+			.ap6-sprite__vkont_position3-15 {
+			position: absolute;
+			top: -12px;
+			left: 695px;
+			}
+	
+			.ap6-sprite__youtube_position3-16 {
+			position: absolute;
+			top: -19px;
+			left: 745px;
+			}
+
+			.ap6-sprite__facebook_position3-17 {
+			position: absolute;
+			top: -26px;
+			left: 795px;
+			}
+
+			.ap6-sprite__twocircles_position3-18 {
+			position: absolute;
+			top: -33px;
+			left: 845px;
+			}
+
+			.ap6-sprite__ball_position4-1 {
+			position: absolute;
+			top: 132px;
+			left: 0px;
+			}
+
+			.ap6-sprite__gplus_position4-2 {
+			position: absolute;
+			top: 125px;
+			left: 50px;
+			}
+
+			.ap6-sprite__in_position4-3 {
+			position: absolute;
+			top: 117px;
+			left: 100px;
+			}
+
+			.ap6-sprite__pintrest_position4-4 {
+			position: absolute;
+			top: 110px;
+			left: 150px;
+			}
+
+			.ap6-sprite__rss_position4-5 {
+			position: absolute;
+			top: 103px;
+			left: 200px;
+			}
+
+			.ap6-sprite__skype_position4-6 {
+			position: absolute;
+			top: 96px;
+			left: 250px;
+			}
+			
+			.ap6-sprite__twitter_position4-7 {
+			position: absolute;
+			top: 89px;
+			left: 300px;
+			}
+
+			.ap6-sprite__vkont_position4-8 {
+			position: absolute;
+			top: 82px;
+			left: 350px;
+			}
+
+			.ap6-sprite__youtube_position4-9 {
+			position: absolute;
+			top: 75px;
+			left: 400px;
+			}
+
+			.ap6-sprite__facebook_position4-10 {
+			position: absolute;
+			top: 68px;
+			left: 450px;
+			}
+			.ap6-sprite__twocircles_position4-11 {
+			position: absolute;
+			top: 61px;
+			left: 500px;
+			}
+	
+			.ap6-sprite__ball_position4-12 {
+			position: absolute;
+			top: 54px;
+			left: 550px;
+			}
+	
+			.ap6-sprite__gplus_position4-13 {
+			position: absolute;
+			top: 47px;
+			left: 600px;
+			}
+	
+			.ap6-sprite__in_position4-14 {
+			position: absolute;
+			top: 40px;
+			left: 650px;
+			}
+	
+			.ap6-sprite__pintrest_position4-15 {
+			position: absolute;
+			top: 37px;
+			left: 700px;
+			}
+	
+			.ap6-sprite__rss_position4-16 {
+			position: absolute;
+			top: 30px;
+			left: 750px;
+			}
+	
+			.ap6-sprite__skype_position4-17 {
+			position: absolute;
+			top: 23px;
+			left: 800px;
+			}
+				
+			.ap6-sprite__twitter_position4-18 {
+			position: absolute;
+			top: 16px;
+			left: 850px;
+			}
+	
+			.ap6-sprite__vkont_position4-19 {
+			position: absolute;
+			top: 9px;
+			left: 900px;
+			}
+	
+			.ap6-sprite__youtube_position4-20 {
+			position: absolute;
+			top: 2px;
+			left: 950px;
+			}
+
+			.ap6-sprite__facebook_position4-21 {
+			position: absolute;
+			top: -5px;
+			left: 1000px;
+			}
+
+			.ap6-sprite__twocircles_position4-22 {
+			position: absolute;
+			top: -12px;
+			left: 1050px;
+			}
+
+			.ap6-sprite__gplus_position5-1 {
+			position: absolute;
+			top: 180px;
+			left: 8px;
+			}
+
+			.ap6-sprite__in_position5-2 {
+			position: absolute;
+			top: 173px;
+			left: 58px;
+			}
+
+			.ap6-sprite__pintrest_position5-3 {
+			position: absolute;
+			top: 164px;
+			left: 108px;
+			}
+
+			.ap6-sprite__rss_position5-4 {
+			position: absolute;
+			top: 157px;
+			left: 158px;
+			}
+
+			.ap6-sprite__skype_position5-5 {
+			position: absolute;
+			top: 150px;
+			left: 208px;
+			}
+
+			.ap6-sprite__twitter_position5-6 {
+			position: absolute;
+			top: 143px;
+			left: 258px;
+			}
+
+			.ap6-sprite__vkont_position5-7 {
+			position: absolute;
+			top: 136px;
+			left: 308px;
+			}
+
+			.ap6-sprite__youtube_position5-8 {
+			position: absolute;
+			top: 136px;
+			left: 308px;
+			}
+
+			.ap6-sprite__facebook_position5-9 {
+			position: absolute;
+			top: 129px;
+			left: 358px;
+			}
+
+			.ap6-sprite__twocircles_position5-10 {
+			position: absolute;
+			top: 122px;
+			left: 408px;
+			}
+
+			.ap6-sprite__gplus_position5-11 {
+			position: absolute;
+			top: 115px;
+			left: 458px;
+			}
+	
+			.ap6-sprite__in_position5-12 {
+			position: absolute;
+			top: 107px;
+			left: 508px;
+			}
+	
+			.ap6-sprite__pintrest_position5-13 {
+			position: absolute;
+			top: 100px;
+			left: 558px;
+			}
+	
+			.ap6-sprite__rss_position5-14 {
+			position: absolute;
+			top: 93px;
+			left: 608px;
+			}
+	
+			.ap6-sprite__skype_position5-15 {
+			position: absolute;
+			top: 86px;
+			left: 658px;
+			}
+
+			.ap6-sprite__twitter_position5-16 {
+			position: absolute;
+			top: 79px;
+			left: 708px;
+			}
+	
+			.ap6-sprite__vkont_position5-17 {
+			position: absolute;
+			top: 72px;
+			left: 758px;
+			}
+	
+			.ap6-sprite__youtube_position5-18 {
+			position: absolute;
+			top: 65px;
+			left: 808px;
+			}
+	
+			.ap6-sprite__facebook_position5-19 {
+			position: absolute;
+			top: 58px;
+			left: 858px;
+			}
+	
+			.ap6-sprite__twocircles_position5-20 {
+			position: absolute;
+			top: 51px;
+			left: 908px;
+			}
+
+			.ap6-sprite__gplus_position5-21 {
+			position: absolute;
+			top: 46px;
+			left: 958px;
+			}
+		
+			.ap6-sprite__in_position5-22 {
+			position: absolute;
+			top: 39px;
+			left: 1008px;
+			}
+		
+			.ap6-sprite__pintrest_position5-23 {
+			position: absolute;
+			top: 32px;
+			left: 1058px;
+			}
+
+			.ap6-sprite__rss_position6-1 {
+			position: absolute;
+			top: 180px;
+			left: 313px;	
+			}
+
+			.ap6-sprite__skype_position6-2 {
+			position: absolute;
+			top: 173px;
+			left: 363px;	
+			}
+
+			.ap6-sprite__twitter_position6-3 {
+			position: absolute;
+			top: 166px;
+			left: 413px;
+			}
+
+			.ap6-sprite__vkont_position6-4 {
+			position: absolute;
+			top: 159px;
+			left: 463px;
+			}
+		
+			.ap6-sprite__youtube_position6-5 {
+			position: absolute;
+			top: 152px;
+			left: 513px;
+			}
+		
+			.ap6-sprite__facebook_position6-6 {
+			position: absolute;
+			top: 145px;
+			left: 563px;
+			}
+		
+			.ap6-sprite__twocircles_position6-7 {
+			position: absolute;
+			top: 138px;
+			left: 613px;
+			}
+	
+			.ap6-sprite__gplus_position6-8 {
+			position: absolute;
+			top: 131px;
+			left: 663px;
+			}
+			
+			.ap6-sprite__in_position6-9 {
+			position: absolute;
+			top: 124px;
+			left: 713px;
+			}
+			
+			.ap6-sprite__pintrest_position6-10 {
+			position: absolute;
+			top: 117px;
+			left: 763px;
+			}
+	
+			.ap6-sprite__rss_position6-11 {
+			position: absolute;
+			top: 110px;
+			left: 813px;	
+			}
+	
+			.ap6-sprite__skype_position6-12 {
+			position: absolute;
+			top: 103px;
+			left: 863px;	
+			}
+	
+			.ap6-sprite__twitter_position6-13 {
+			position: absolute;
+			top: 96px;
+			left: 913px;
+			}
+
+			.ap6-sprite__vkont_position6-14 {
+			position: absolute;
+			top: 89px;
+			left: 963px;
+			}
+			
+			.ap6-sprite__youtube_position6-15 {
+			position: absolute;
+			top: 82px;
+			left: 1013px;
+			}
+			
+			.ap6-sprite__facebook_position6-16 {
+			position: absolute;
+			top: 75px;
+			left: 1063px;
+			}
+
+			.ap6-sprite__ball_position7-1 {
+			position: absolute;
+			top: 181px;
+			left: 618px;
+			}
+
+			.ap6-sprite__in_position7-2 {
+			position: absolute;
+			top: 176px;
+			left: 668px;			
+			}
+
+			.ap6-sprite__pintrest_position7-3 {
+			position: absolute;
+			top: 169px;
+			left: 718px;			
+			}
+
+			.ap6-sprite__rss_position7-4 {
+			position: absolute;
+			top: 162px;
+			left: 768px;	
+			}
+	
+			.ap6-sprite__skype_position7-5 {
+			position: absolute;
+			top: 155px;
+			left: 818px;	
+			}
+	
+			.ap6-sprite__twitter_position7-6 {
+			position: absolute;
+			top: 148px;
+			left: 868px;
+			}
+	
+			.ap6-sprite__vkont_position7-7 {
+			position: absolute;
+			top: 141px;
+			left: 918px;
+			}
+			
+			.ap6-sprite__youtube_position7-8 {
+			position: absolute;
+			top: 136px;
+			left: 968px;
+			}
+			
+			.ap6-sprite__facebook_position7-9 {
+			position: absolute;
+			top: 128px;
+			left: 1018px;
+			}
+			
+			.ap6-sprite__twocircles_position7-10 {
+			position: absolute;
+			top: 121px;
+			left: 1068px;
+			}
+			
+			.ap6-sprite__ball_position8-1 {
+			position: absolute;
+			top: 179px;
+			left: 973px;
+			}
+
+			.ap6-sprite__gplus_position8-2 {
+			position: absolute;
+			top: 172px;
+			left: 1023px;
+			}
+
+			.ap6-sprite__in_position8-3 {
+			position: absolute;
+			top: 165px;
+			left: 1073px;
+			}
+
+			.ap6-label__text {
+			border: solid black 3px;							
+			font-family: Brush Script MT;
+			font-size: 40px;
+			text-align: center;
+			padding: 0 10px;
+			margin: 5px;			
+			}
+
+			.ap6-header__label {
+			position: absolute;
+			left: 400px;
+			top: 70px;
+			}			
+
+			.ap6-label_theme-white {
+			background: rgba(255,255,255,0.9);
+			}
