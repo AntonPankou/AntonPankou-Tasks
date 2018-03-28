@@ -1,0 +1,137 @@
+/* 2nd row styles */
+
+.uip-block__text-block2 {
+margin: 5% 7% 20% 4.5%;
+}
+
+.uip-text-block2__donec {
+font-family: Arial;
+margin-bottom: 4.5%;
+font-size: 36px;
+}
+
+.uip-text-block2__sed {
+font-family: Arial;
+margin-bottom: 6.75%;
+font-size: 15px;
+}
+
+.uip-text-block2__phasellus {
+	font-family: Arial;
+	margin-bottom: 4%;
+	font-size: 15px;
+}
+
+.uip-text-block2__quisque {
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.uip-text-block2__theme-gold {
+	color: #e4ae58;
+}
+
+.uip-skills-block__wrap {
+	margin: 15% 5% 15% 7%;
+}
+
+.uip-skills-block__skills {
+	font-family: Arial;
+	margin-bottom: 9%;
+	font-size: 36px;
+}
+
+.uip-skills-block__skills_theme-white {
+	color: white;
+}
+
+.uip-skills-block__soft {
+	font-family: Arial;
+	font-size: 15px;
+	margin-bottom: 13%;
+}
+
+.uip-skills-block__align {
+}
+
+.uip-skills-block__soft_theme-white {
+	color: white;
+}
+
+.uip-skills-block__progbar-percent {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.uip-skills-block__align {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+}
+
+.uip-skills-block__progbar-fe {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 1%;
+	margin-right: 49%;
+}
+
+.uip-skills-block__progbar-bp {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 1%;
+	margin-right: 39%;
+}
+
+.uip-skills-block__progbar-htcss {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 1%;
+	margin-right: 52%;
+}
+
+.uip-skills-block__progbar-line {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10%;
+
+}
+
+.uip-skills-block__progbar-get {
+	background-color: black;
+	height: 2px;
+}
+
+.uip-skills-block__progbar-get_big {   
+	width: 90%;
+}
+
+.uip-skills-block__progbar-get_sm {
+	width: 70%;
+}
+
+.uip-skills-block__progbar-get_mid {    
+	width: 80%;
+}
+
+
+.uip-skills-block__progbar-left {
+	background-color: white;
+	height: 2px;
+}
+
+.uip-skills-block__progbar-left_big {
+	width: 30%;
+}
+
+.uip-skills-block__progbar-left_sm {
+	width: 10%;
+}
+
+.uip-skills-block__progbar-left_mid {
+	width: 20%;
+}

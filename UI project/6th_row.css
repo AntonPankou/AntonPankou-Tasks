@@ -1,0 +1,36 @@
+/* 6th row styles*/
+
+.uip-star-section {
+
+}
+
+.uip-star-section__star-icon {
+    color:white;
+    font-size: 40px;
+    margin-top: 9%;
+}
+
+.uip-star-section__string-lg {
+	font-family: arial;
+	font-size: 36px;
+	max-width: 60%;
+	color: white;
+	text-align: center;
+	margin-top: 2%;
+}
+
+.uip-star-section__string-sm {
+	font-family: arial;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	margin-top: 4%;
+}
+
+.uip-star-section__wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
