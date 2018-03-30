@@ -1,0 +1,131 @@
+@font-face {
+	font-family: fontawesome-webfont; 
+	src: url(fonts/fontawesome-webfont.ttf);
+}
+
+.uip-global-container {
+}
+
+.uip-global-container__wrap {
+	background: black;
+	width: 100%;	
+	display: flex;
+	flex-direction: column;
+}
+
+.uip-global-container__block {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.uip-global-container__block_height-xxl {
+	min-height: 820px;
+	display: flex;
+	flex-direction: row;	
+}
+
+.uip-global-container__block_height-xl {
+	height: 617px;
+	display: flex;
+	flex-direction: row;
+}
+
+.uip-global-container__block_height-l {
+	min-height: 478px;
+	display: flex;
+	flex-direction: row;
+}
+
+.uip-global-container__block_height-m {
+	min-height: 445px;
+	display: flex;
+	flex-direction: row;
+}
+
+.uip-global-container__block_height-s {
+	min-height: 377px;
+	display: flex;
+	flex-direction: row;
+}
+
+.uip-global-container__block_height-xs {
+	min-height: 336px;
+	display: flex;
+	flex-direction: row;
+}
+
+.uip-block {
+}
+
+.uip-block__size-mid {
+	width:  50%;
+}
+
+.uip-block__size-sm {
+	width:  25%;
+}
+
+.uip-block_bg-dude-on-chair {
+	background: no-repeat;
+	background-image: url(../UI_project_files/5.jpg);
+	background-position: 52% 80%;
+	background-size: cover;
+}
+
+.uip-block_bg-grey {
+	background-color: #b6b6b6;
+}
+
+.uip-block_bg-light {
+	background-color: #ffffff;
+}
+
+.uip-block_bg-yellow {
+	background-color: #e4ae58;
+}
+
+.uip-block_bg-dude-with-tab {
+	background: no-repeat;
+	background-image: url(../UI_project_files/1.jpg);
+	background-position: 50% 0%;
+	background-size: cover;
+}
+
+.uip-block_bg-dude-with-mac {
+	background: no-repeat;
+	background-image: url(../UI_project_files/2.jpg);
+	background-position: 50% 0%;
+	background-size: cover;
+}
+
+.uip-block_bg-red {
+	background-color: #e9714c;
+}
+
+.uip-block_bg-black {
+	background-color: #161616;
+}
+
+.uip-block_bg-phone {
+	background: no-repeat;
+	background-image: url(../UI_project_files/4.jpg);
+	background-position: 51% 0%;
+	background-size: cover; 
+}
+
+.uip-block_bg-chick-hands {
+	background: no-repeat;
+	background-image: url(../UI_project_files/3.jpg);
+	background-position: 35% 0%;
+	background-size: cover;
+}
+
+.uip-block_bg-dude-hands {
+	background: no-repeat;	
+	background-image: linear-gradient(to right,rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(../UI_project_files/6.jpg);	
+	background-position: 35% 15%;
+	background-size: cover;
+	
+}

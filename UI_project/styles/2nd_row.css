@@ -1,0 +1,105 @@
+.uip-block__text-block2 {
+	margin: 5% 7% 20% 4.5%;
+}
+
+.uip-text-block2__string-lg {
+	font-family: Arial;	
+	font-size: 36px;
+}
+
+.uip-text-block2__string-mid {
+	font-family: Arial;
+	margin-top: 4%;
+	font-size: 15px;
+}
+
+.uip-text-block2__string-mid_theme-yellow {
+	color: #e4ae58;
+}
+
+.uip-skills-block__wrap {
+	margin: 15% 5% 15% 7%;
+}
+
+.uip-skills-block__string-lg {
+	font-family: Arial;
+	margin-bottom: 9%;
+	font-size: 36px;
+}
+
+.uip-skills-block__string-lg_theme-white {
+	color: white;
+}
+
+.uip-skills-block__string-sm {
+	font-family: Arial;
+	font-size: 15px;
+	margin-bottom: 13%;
+}
+
+.uip-skills-block__align {
+}
+
+.uip-skills-block__string-sm_theme-white {
+	color: white;
+}
+
+.uip-skills-block__progbar-percent {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.uip-skills-block__align {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.uip-skills-block__progbar-title {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 1%;	
+}
+
+.uip-skills-block__progbar-line {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10%;
+}
+
+.uip-skills-block__progbar-get {
+	background-color: black;
+	height: 2px;
+}
+
+.uip-skills-block__progbar-get_big {   
+	width: 90%;
+}
+
+.uip-skills-block__progbar-get_sm {
+	width: 70%;
+}
+
+.uip-skills-block__progbar-get_mid {    
+	width: 80%;
+}
+
+
+.uip-skills-block__progbar-left {
+	background-color: white;
+	height: 2px;
+}
+
+.uip-skills-block__progbar-left_big {
+	width: 30%;
+}
+
+.uip-skills-block__progbar-left_sm {
+	width: 10%;
+}
+
+.uip-skills-block__progbar-left_mid {
+	width: 20%;
+}
