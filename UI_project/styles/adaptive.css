@@ -1,3 +1,103 @@
+@media (max-width: 6000px) {
+.uip-block__text-block {
+	margin-top: 0%;	
+}
+
+.uip-block-form__wrap {
+	margin: 1% 0 0 4.5%;
+}
+
+.uip-block-form__field {
+	margin-top: 1%;
+}
+
+.uip-block-form__fields {
+	margin-top: 1%;
+}
+
+.uip-edu-block__speciality_pos {
+	margin-top: 1%;
+}
+
+.uip-block__edu-block {	
+	margin-top: 4%;
+}
+
+.uip-exp-block__speciality_pos {
+	margin-top: 1%;
+}
+
+.uip-block__exp-block {	
+	margin-top: 3%;
+}
+
+.uip-button__get-start {
+	margin-top: 1%;
+}
+
+.uip-block-button__send {
+	margin-top: 1%;
+}
+}
+
+@media (max-width: 3000px) {
+.uip-block__text-block {
+	margin-top: 5%;
+}
+
+.uip-block-form__field {
+	margin-top: 3%;
+}
+
+.uip-block-form__fields {
+	margin-top: 3%;
+}
+
+.uip-block-form__wrap {
+	margin-top: 4%;
+}
+}
+
+@media (max-width: 1480px) {
+.uip-block__text-block {
+	margin-top: 20%;	
+}
+
+.uip-edu-block__speciality_pos {
+	margin-top: 2.5%;
+}
+
+.uip-block__edu-block {	
+	margin-top: 8%;
+}
+
+.uip-exp-block__speciality_pos {
+	margin-top: 2.5%;
+}
+
+.uip-block__exp-block {	
+	margin-top: 8%;
+}
+
+.uip-button__get-start {
+	margin-top: 5%;
+}
+
+.uip-block-button__send {
+	margin-top: 1%;
+}
+
+.uip-block-form__wrap {
+	margin-top: 8%;
+}
+
+.uip-block-button__send {
+	margin-top: 3%;
+}
+
+}
+
+
 @media (max-width: 1050px) {
 
 
@@ -11,7 +111,7 @@
 }
 
 .uip-global-container__block_height-xxl { 
-	height: 590px;
+	min-height: 590px;
 }
 
 .uip-block__string-sm {
@@ -23,7 +123,7 @@
 }
 
 .uip-global-container__block_height-xs { 
-height: 260px;
+	min-height: 260px;
 }
 
 .uip-skills-block__string-lg {
@@ -185,7 +285,7 @@ height: 260px;
 }
     
 
-@media (max-width: 700px) {    
+@media (max-width: 720px) {    
     
 .uip-global-container__block { 
 	width: 100%;	
@@ -421,4 +521,5 @@ height: 260px;
 	justify-content: center; 
 	align-items: center; 
 }
+
 }
