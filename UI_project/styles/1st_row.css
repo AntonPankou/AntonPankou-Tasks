@@ -1,5 +1,3 @@
-/* 1st row styles */
-
 .uip-title {
 	
 }
@@ -72,7 +70,7 @@ a {
 }
 
 .uip-text-block__hello {
-	font-family: Arial;
+	font-family: 'SourseSansPro', serif;
 	margin: 4% 6% 4% 0;
 	font-size: 36px;	
 }
@@ -82,7 +80,7 @@ a {
 }
 
 .uip-text-block__statement {
-	font-family: Arial;
+	font-family: 'SourseSansPro', serif;
 	margin: 4% 6% 4% 0;
 	font-size: 15px;
 	color: grey;

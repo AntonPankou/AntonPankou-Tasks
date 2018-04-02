@@ -14,13 +14,13 @@
 
 .uip-edu-block__string {
 	font-size: 36px;
-	font-family: arial;
+	font-family: 'SourseSansPro', serif;
 	color: white;
 }
 
 .uip-edu-block__string-sm {
 	font-size: 12px;
-	font-family: arial;
+	font-family: 'SourseSansPro', serif;
 	color: white;
 }
 
@@ -37,14 +37,14 @@
 
 .uip-edu-block__string-med {
 	font-size: 20px;
-	font-family: arial;
+	font-family: 'SourseSansPro', serif;
 	color: white;
 	margin-right: 2%;
 }
 
 .uip-edu-block__string-date {
 	font-size: 14px;
-	font-family: arial;
+	font-family: 'SourseSansPro', serif;
 	color: black;
 	font-weight: bold;
 	margin-top: 1%;

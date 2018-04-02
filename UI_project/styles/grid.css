@@ -1,6 +1,13 @@
 @font-face {
 	font-family: fontawesome-webfont; 
-	src: url(fonts/fontawesome-webfont.ttf);
+	src: url('../fonts/fontawesome-webfont.ttf');
+}
+
+@font-face {
+    font-family: 'SourseSansPro';
+    src: url('../fonts/SourceSansPro-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
 }
 
 .uip-global-container {

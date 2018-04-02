@@ -3,12 +3,12 @@
 }
 
 .uip-text-block2__string-lg {
-	font-family: Arial;	
+	font-family: 'SourseSansPro', serif;	
 	font-size: 36px;
 }
 
 .uip-text-block2__string-mid {
-	font-family: Arial;
+	font-family: 'SourseSansPro', serif;
 	margin-top: 4%;
 	font-size: 15px;
 }
@@ -22,7 +22,7 @@
 }
 
 .uip-skills-block__string-lg {
-	font-family: Arial;
+	font-family: 'SourseSansPro', serif;
 	margin-bottom: 9%;
 	font-size: 36px;
 }
@@ -32,7 +32,7 @@
 }
 
 .uip-skills-block__string-sm {
-	font-family: Arial;
+	font-family: 'SourseSansPro', serif;
 	font-size: 15px;
 	margin-bottom: 13%;
 }
@@ -46,7 +46,7 @@
 
 .uip-skills-block__progbar-percent {
 	color: white;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'SourseSansPro', serif;
 	font-size: 14px;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .uip-skills-block__progbar-title {
-	font-family: Arial;
+	font-family: 'SourseSansPro', serif;
 	font-weight: bold;
 	font-size: 15px;
 	margin-bottom: 1%;	

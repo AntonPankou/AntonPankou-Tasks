@@ -18,6 +18,7 @@ justify-content: center;
 
 .ui-footer__string {
 color: grey;
+font-family: 'SourseSansPro', serif;
 }
 
 .ui-footer__string_theme-yellow {
@@ -39,4 +40,5 @@ font-size: 18px;
 
 .ui-footer__string a {
 	color: #e4ae58;
+	font-family: 'SourseSansPro', serif;
 }

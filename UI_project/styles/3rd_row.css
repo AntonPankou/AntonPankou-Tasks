@@ -25,7 +25,7 @@ align-items: center;
 
 .uip-block__string {
 color: white;
-font-family: Arial;
+font-family: 'SourseSansPro', serif;
 font-size: 26px;
 margin-top: 11%;
 max-width: 100%; /* fix for ie 11  */
@@ -33,7 +33,7 @@ max-width: 100%; /* fix for ie 11  */
 
 .uip-block__string-sm {
 color: white;
-font-family: Arial;
+font-family: 'SourseSansPro', serif;
 font-size: 20px;
 margin-top: 10%;
 text-align: center;

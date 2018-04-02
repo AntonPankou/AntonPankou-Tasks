@@ -10,7 +10,7 @@
 }
 
 .uip-star-section__string-lg {
-	font-family: arial;
+	font-family: 'SourseSansPro', serif;
 	font-size: 36px;
 	max-width: 60%;
 	color: white;
@@ -19,7 +19,7 @@
 }
 
 .uip-star-section__string-sm {
-	font-family: arial;
+	font-family: 'SourseSansPro', serif;
 	font-size: 12px;
 	color: white;
 	text-align: center;
