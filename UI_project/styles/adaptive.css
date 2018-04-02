@@ -40,6 +40,21 @@
 }
 }
 
+.uip-block__block-contact {
+	margin: 8.5% 0 0 8%;	
+}
+
+.uip-block-contact__string-lg {	
+	margin-top: 4%;
+}
+
+.uip-block-contact__string-sm {	
+	margin-top: 3%;
+}
+
+
+
+
 @media (max-width: 3000px) {
 .uip-block__text-block {
 	margin-top: 5%;
@@ -56,6 +71,27 @@
 .uip-block-form__wrap {
 	margin-top: 4%;
 }
+
+.uip-block__block-contact {
+	margin: 8.5% 0 0 13%;
+	color: white;
+}
+
+.uip-block-contact__string-lg {
+	font-size: 20px;
+	font-family: 'SourseSansPro', serif;
+	margin-top: 8%;
+}
+
+.uip-block-contact__string-sm {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	font-family: 'SourseSansPro', serif;
+	font-size: 12px;
+	margin-top: 6%;
+}
+
 }
 
 @media (max-width: 1480px) {
@@ -68,7 +104,7 @@
 }
 
 .uip-block__edu-block {	
-	margin-top: 8%;
+	margin-top: 12%;
 }
 
 .uip-exp-block__speciality_pos {
@@ -76,7 +112,7 @@
 }
 
 .uip-block__exp-block {	
-	margin-top: 8%;
+	margin-top: 12%;
 }
 
 .uip-button__get-start {
@@ -93,6 +129,10 @@
 
 .uip-block-button__send {
 	margin-top: 3%;
+}
+
+.uip-global-container__block_height-m {
+	min-height: 400px;
 }
 
 }
